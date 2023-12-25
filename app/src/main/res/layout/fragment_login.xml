@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.loginFragment">
+
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/spinner"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="310dp" />
+    <EditText
+        android:inputType="number"
+        android:hint="Nhập Số Điện Thoại"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/edtSdt"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="90dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnLogin"
+        android:text="Đăng Nhập Bằng Google"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnSignUp"
+        android:text="Đăng Kí Tài Khoản Mới"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnSignInAcc"
+        android:text="Đăng Nhập Bằng Tài Khoản"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true"/>
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/loginFB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"/>
+</RelativeLayout>

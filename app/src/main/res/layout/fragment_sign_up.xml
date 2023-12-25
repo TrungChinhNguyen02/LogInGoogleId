@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Tạo Tài Khoản Mới"
+       android:textSize="30dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="100dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:hint="nhập Email"
+        android:id="@+id/edtEmail"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:hint="nhập Password"
+        android:id="@+id/edtPass"
+        android:layout_marginTop="320dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:hint="nhập Họ"
+        android:id="@+id/edtlast"
+        android:layout_marginTop="390dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:hint="nhập Tên"
+        android:id="@+id/edtFirst"
+        android:layout_marginTop="460dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="550dp"
+        android:id="@+id/btnSignUp"/>
+</FrameLayout>

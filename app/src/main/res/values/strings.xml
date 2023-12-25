@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="facebook_app_id">384233154140928</string>
+    <string name="fb_login_protocol_scheme">fb384233154140928</string>
+    <string name="facebook_client_token">56789</string>
+
+
+
+    <string name="app_name">LogInGoogleId</string>
+    <string name="default_web_client_id">AIzaSyDmKtyZRL0qiCJf8HI3bh76XYxX-GgDhc4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
